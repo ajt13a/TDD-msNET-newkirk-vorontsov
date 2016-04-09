@@ -1,3 +1,26 @@
+Notes:  -- the files related to this document are now in a GitHub repository
+        -- no longer valid:  http://workspaces.gotdotnet.com/tdd
+        
+        -- James Newkirk was the author of NUnit 2
+        -- James Newkirk and Brad Wilson are responsible for xUnit.net
+           which is a substantially improved alternative to NUnit
+           https://xunit.github.io/
+        -- "ASP.NET 5 uses xUnit.net as its unit test framework.
+            This framework uses the [Fact] attribute instead of
+            the [TestMethod] attribute (and no [TestClass] attribute])"
+            http://stephenwalther.com/archive/2015/02/24/top-10-changes-in-asp-net-5-and-mvc-6
+        
+LinkS:  http://jamesnewkirk.typepad.com/posts/tdd.html
+        http://jamesnewkirk.typepad.com/tdd/toc.pdf Book table of content
+        http://jamesnewkirk.typepad.com/tdd/ch2.pdf Book sample, chapter 2.
+        http://www.nunit.org/ 
+        @xunit        https://twitter.com/xunit
+        @jamesnewkirk https://twitter.com/jamesnewkirk
+        @bradwwilson  https://twitter.com/bradwilson
+        
+        
+Kudos:  Joe K. Priestly for his free .msi extraction tool
+
                          Readme file
                              for
               Test Driven Development in Microsoft .NET
@@ -251,7 +274,7 @@ Every effort has been made to ensure the accuracy of the book and
 this companion content. Microsoft Press provides corrections for books and
 companion content through the World Wide Web at:
 
-	http://workspaces.gotdotnet.com/tdd
+	http://workspaces.gotdotnet.com/tdd  <== no longer valid
 
 
 If you have comments, questions, or ideas regarding the book or this 

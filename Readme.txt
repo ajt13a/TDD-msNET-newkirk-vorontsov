@@ -13,6 +13,8 @@ Notes:  -- the files related to this document are now in a GitHub repository
 LinkS:  http://jamesnewkirk.typepad.com/posts/tdd.html
         http://jamesnewkirk.typepad.com/tdd/toc.pdf Book table of content
         http://jamesnewkirk.typepad.com/tdd/ch2.pdf Book sample, chapter 2.
+        https://www.microsoftpressstore.com/store/test-driven-development-in-microsoft-.net-9780735691292 
+        http://www.amazon.com/Test-Driven-Development-Microsoft-Developer-Reference-ebook/dp/B00JDMPOSO/ e-book
         http://www.nunit.org/ 
         @xunit        https://twitter.com/xunit
         @jamesnewkirk https://twitter.com/jamesnewkirk

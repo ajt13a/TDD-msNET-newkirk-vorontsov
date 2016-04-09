@@ -25,6 +25,17 @@ Kudos:  Joe K. Priestly for his free .msi extraction tool jsMSIx.exe - Simple MS
         http://www.jsware.net/jsware/msicode.php5
         http://www.jsware.net/jsware/msicode.php5#unpackx 
         http://www.jsware.net/jsware/zips/jsmsix418a.zip  contains jsMSIx.exe 
+        
+Gotchas:
+(a) permissions for catalog_Data.mdf and catalog_Data.log
+(b) version of SQL server is incorrect:                     [ MS SQL Server 2014 Management Studio ]
+    "Msg 1813, Level 16, State 2, Line 1
+     Could not open new database 'catalog'. CREATE DATABASE is aborted.
+     Msg 950, Level 20, State 1, Line 1
+     Database 'catalog' cannot be upgraded because its non-release version (539) is not supported
+     by this version of SQL Server. You cannot open a database that is incompatible with this version of sqlservr.exe.
+     You must re-create the database."
+        
 
                          Readme file
                              for

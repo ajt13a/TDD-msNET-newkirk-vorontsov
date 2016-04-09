@@ -21,7 +21,10 @@ LinkS:  http://jamesnewkirk.typepad.com/posts/tdd.html
         @bradwwilson  https://twitter.com/bradwilson
         
         
-Kudos:  Joe K. Priestly for his free .msi extraction tool
+Kudos:  Joe K. Priestly for his free .msi extraction tool jsMSIx.exe - Simple MSI/MSM Unpacker Program
+        http://www.jsware.net/jsware/msicode.php5
+        http://www.jsware.net/jsware/msicode.php5#unpackx 
+        http://www.jsware.net/jsware/zips/jsmsix418a.zip  contains jsMSIx.exe 
 
                          Readme file
                              for

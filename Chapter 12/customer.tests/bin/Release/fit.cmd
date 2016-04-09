@@ -1,0 +1,1 @@
+customer.tests.exe ..\..\CatalogTest.html ..\..\CatalogResult.html

@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "http://localhost/ServiceInterface/ServiceInterface.csproj", "{F9FCAA98-79B2-4154-A522-FEBCBECA243F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{D6586756-98FF-4274-B185-26B2B27DBC77}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayerTests", "..\DataAccessLayerTests\DataAccessLayerTests.csproj", "{4BC49870-4AD3-491A-AC3F-9CB38A48F8EE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F9FCAA98-79B2-4154-A522-FEBCBECA243F}.Debug.ActiveCfg = Debug|.NET
+		{F9FCAA98-79B2-4154-A522-FEBCBECA243F}.Debug.Build.0 = Debug|.NET
+		{F9FCAA98-79B2-4154-A522-FEBCBECA243F}.Release.ActiveCfg = Release|.NET
+		{F9FCAA98-79B2-4154-A522-FEBCBECA243F}.Release.Build.0 = Release|.NET
+		{D6586756-98FF-4274-B185-26B2B27DBC77}.Debug.ActiveCfg = Debug|.NET
+		{D6586756-98FF-4274-B185-26B2B27DBC77}.Debug.Build.0 = Debug|.NET
+		{D6586756-98FF-4274-B185-26B2B27DBC77}.Release.ActiveCfg = Release|.NET
+		{D6586756-98FF-4274-B185-26B2B27DBC77}.Release.Build.0 = Release|.NET
+		{4BC49870-4AD3-491A-AC3F-9CB38A48F8EE}.Debug.ActiveCfg = Debug|.NET
+		{4BC49870-4AD3-491A-AC3F-9CB38A48F8EE}.Debug.Build.0 = Debug|.NET
+		{4BC49870-4AD3-491A-AC3F-9CB38A48F8EE}.Release.ActiveCfg = Release|.NET
+		{4BC49870-4AD3-491A-AC3F-9CB38A48F8EE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

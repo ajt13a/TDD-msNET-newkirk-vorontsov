@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data.access", "data.access\data.access.csproj", "{131C760B-EBE3-45D6-A518-E94F469F8DA4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data.model", "data.model\data.model.csproj", "{AD997697-3174-4A92-8DB4-A189B9C3B198}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data.access.tests", "data.access.tests\data.access.tests.csproj", "{4258EF5C-1AC2-48E2-909F-D752303C408B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service.interface", "http://localhost/ServiceInterface/service.interface.csproj", "{B509E6C5-D97E-4070-AA23-35961BC5DEC7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service.interface.tests", "service.interface.tests\service.interface.tests.csproj", "{237D3D50-A5CE-47FD-8171-5BCEA15D3A0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer.tests", "customer.tests\customer.tests.csproj", "{3A5F1B3A-8491-4E75-BCD9-191599917BD2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{131C760B-EBE3-45D6-A518-E94F469F8DA4}.Debug.ActiveCfg = Debug|.NET
+		{131C760B-EBE3-45D6-A518-E94F469F8DA4}.Debug.Build.0 = Debug|.NET
+		{131C760B-EBE3-45D6-A518-E94F469F8DA4}.Release.ActiveCfg = Release|.NET
+		{131C760B-EBE3-45D6-A518-E94F469F8DA4}.Release.Build.0 = Release|.NET
+		{AD997697-3174-4A92-8DB4-A189B9C3B198}.Debug.ActiveCfg = Debug|.NET
+		{AD997697-3174-4A92-8DB4-A189B9C3B198}.Debug.Build.0 = Debug|.NET
+		{AD997697-3174-4A92-8DB4-A189B9C3B198}.Release.ActiveCfg = Release|.NET
+		{AD997697-3174-4A92-8DB4-A189B9C3B198}.Release.Build.0 = Release|.NET
+		{4258EF5C-1AC2-48E2-909F-D752303C408B}.Debug.ActiveCfg = Debug|.NET
+		{4258EF5C-1AC2-48E2-909F-D752303C408B}.Debug.Build.0 = Debug|.NET
+		{4258EF5C-1AC2-48E2-909F-D752303C408B}.Release.ActiveCfg = Release|.NET
+		{4258EF5C-1AC2-48E2-909F-D752303C408B}.Release.Build.0 = Release|.NET
+		{B509E6C5-D97E-4070-AA23-35961BC5DEC7}.Debug.ActiveCfg = Debug|.NET
+		{B509E6C5-D97E-4070-AA23-35961BC5DEC7}.Debug.Build.0 = Debug|.NET
+		{B509E6C5-D97E-4070-AA23-35961BC5DEC7}.Release.ActiveCfg = Release|.NET
+		{B509E6C5-D97E-4070-AA23-35961BC5DEC7}.Release.Build.0 = Release|.NET
+		{237D3D50-A5CE-47FD-8171-5BCEA15D3A0D}.Debug.ActiveCfg = Debug|.NET
+		{237D3D50-A5CE-47FD-8171-5BCEA15D3A0D}.Debug.Build.0 = Debug|.NET
+		{237D3D50-A5CE-47FD-8171-5BCEA15D3A0D}.Release.ActiveCfg = Release|.NET
+		{237D3D50-A5CE-47FD-8171-5BCEA15D3A0D}.Release.Build.0 = Release|.NET
+		{3A5F1B3A-8491-4E75-BCD9-191599917BD2}.Debug.ActiveCfg = Debug|.NET
+		{3A5F1B3A-8491-4E75-BCD9-191599917BD2}.Debug.Build.0 = Debug|.NET
+		{3A5F1B3A-8491-4E75-BCD9-191599917BD2}.Release.ActiveCfg = Release|.NET
+		{3A5F1B3A-8491-4E75-BCD9-191599917BD2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

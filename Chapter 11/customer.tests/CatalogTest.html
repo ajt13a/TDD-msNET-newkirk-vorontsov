@@ -1,0 +1,685 @@
+<html xmlns:o>
+	<head>
+		<title>Sample Recording Script</title></head>
+	<body vLink="#806040" link="#d06040" bgColor="#ffffff">
+		<table cellSpacing="0" cellPadding="0" width="600">
+			<tr>
+				<td vAlign="top" align="center" width="90">&nbsp;
+				</td>
+				<td vAlign="middle" width="528">
+					<h1>Bruce Springsteen, The Rising</h1>
+				</td>
+			</tr>
+			<tr>
+				<td vAlign="top" align="center">&nbsp;
+				</td>
+				<td>
+					<P><wiki>In this test we are verifying that we can retrieve the recording "The 
+						Rising" by Bruce Sprinsteen.&nbsp; This first test just verifies that we can 
+						find the specified recording using it's ID..
+					</P>
+					<P>
+						<TABLE id="Table1" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">start
+								</TD>
+								<TD height="21">CustomerTests.CatalogAdapter
+								</TD>
+								<TD height="21">&nbsp;</TD>
+							</TR>
+							<TR>
+								<TD height="19">enter
+								</TD>
+								<TD height="19">FindByRecordingId
+								</TD>
+								<TD height="19">4
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check
+								</TD>
+								<TD height="21">Found
+								</TD>
+								<TD height="21">True
+								</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>
+					<P>Once we know we can retrieve the recording it is time to look at the attributes 
+						of the recording. For example, we verify that the title of the recording is 
+						"The Rising" and the artist is "Bruce Springsteen".&nbsp;
+					</P>
+					<P>
+						<TABLE id="Table2" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD>start</TD>
+								<TD>CustomerTests.CatalogAdapter</TD>
+								<TD></TD>
+							</TR>
+							<TR>
+								<TD>enter
+								</TD>
+								<TD>FindByRecordingId
+								</TD>
+								<TD>4</TD>
+							</TR>
+							<TR>
+								<TD>check
+								</TD>
+								<TD>Title
+								</TD>
+								<TD>The Rising</TD>
+							</TR>
+							<TR>
+								<TD>check
+								</TD>
+								<TD>ArtistName</TD>
+								<TD>Bruce Springsteen</TD>
+							</TR>
+							<TR>
+								<TD>check
+								</TD>
+								<TD>ReleaseDate</TD>
+								<TD>7/30/2002</TD>
+							</TR>
+							<TR>
+								<TD>check
+								</TD>
+								<TD>LabelName</TD>
+								<TD>Sony</TD>
+							</TR>
+							<TR>
+								<TD>check
+								</TD>
+								<TD>Duration</TD>
+								<TD>72:51</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>Once the attributes of the recording are verified successfully we can move on to 
+						the tracks that should be associated with recording and their specific 
+						attributes.</P>
+					<P>
+						<TABLE id="Table3" cellSpacing="0" cellPadding="3" width="521" border="1">
+							<TR>
+								<TD width="508" colSpan="4">CustomerTests.TrackDisplay
+								</TD>
+							</TR>
+							<TR>
+								<TD width="100">Title()
+								</TD>
+								<TD width="98">ArtistName()
+								</TD>
+								<TD width="70">GenreName()
+								</TD>
+								<TD width="38">Duration()</TD>
+							</TR>
+							<TR>
+								<TD width="100">Lonesome Day</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock&nbsp;</TD>
+								<TD width="38">4:08</TD>
+							</TR>
+							<TR>
+								<TD width="100">Into The Fire</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">5:04</TD>
+							</TR>
+							<TR>
+								<TD width="100" height="44">Waitin' On A Sunny Day</TD>
+								<TD width="98" height="44">Bruce Springsteen</TD>
+								<TD width="70" height="44">Rock</TD>
+								<TD width="38" height="44">4:18</TD>
+							</TR>
+							<TR>
+								<TD width="100">The Nothing Man</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">4:23</TD>
+							</TR>
+							<TR>
+								<TD width="100">Let's Be Friends</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">4:21</TD>
+							</TR>
+							<TR>
+								<TD width="100">The Fuse</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">5:37</TD>
+							</TR>
+							<TR>
+								<TD width="100">Further On (Up The Road)</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">3:52</TD>
+							</TR>
+							<TR>
+								<TD width="100">Mary's Place</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">6:03</TD>
+							</TR>
+							<TR>
+								<TD width="100">The Rising</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">4:50</TD>
+							</TR>
+							<TR>
+								<TD width="100">My City Of Ruins</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">5:00</TD>
+							</TR>
+							<TR>
+								<TD width="100">Empty Sky</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">3:34</TD>
+							</TR>
+							<TR>
+								<TD width="100" height="25">Worlds Apart</TD>
+								<TD width="98" height="25">Bruce Springsteen</TD>
+								<TD width="70" height="25">Rock</TD>
+								<TD width="38" height="25">6:07</TD>
+							</TR>
+							<TR>
+								<TD width="100">Paradise</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">5:39</TD>
+							</TR>
+							<TR>
+								<TD width="100">You're Missing</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">5:11</TD>
+							</TR>
+							<TR>
+								<TD width="100">Countin' On A Miracle
+								</TD>
+								<TD width="98">Bruce Springsteen</TD>
+								<TD width="70">Rock</TD>
+								<TD width="38">4:44</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>
+					<P>
+						<hr>
+					<P></P>
+					<H2>Review Tests</H2>
+					<P>The previous test verified that we could retrieve recordings through the Web 
+						service using the live database. The Recording used in the previous test 
+						because overtime reviews will be added to this recording which would cause our 
+						tests to fail. Therefore, we will use some of the sample data that is stored in 
+						the database to verify that review information is returned correctly.</P>
+					<P>
+						<TABLE id="Table4" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">start
+								</TD>
+								<TD height="21">CustomerTests.CatalogAdapter
+								</TD>
+								<TD height="21">&nbsp;</TD>
+							</TR>
+							<TR>
+								<TD height="19">enter
+								</TD>
+								<TD height="19">FindByRecordingId
+								</TD>
+								<TD height="19">100001
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check
+								</TD>
+								<TD height="21">Found
+								</TD>
+								<TD height="21">true
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check</TD>
+								<TD height="21">AverageRating</TD>
+								<TD height="21">2</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>
+						<TABLE id="Table7" cellSpacing="0" cellPadding="3" width="521" border="1">
+							<TR>
+								<TD width="508" colSpan="4">CustomerTests.ReviewDisplay
+								</TD>
+							</TR>
+							<TR>
+								<TD width="100">ReviewerName()</TD>
+								<TD width="98">Content()</TD>
+								<TD width="70">Rating()</TD>
+							</TR>
+							<TR>
+								<TD width="100">Sample Reviewer</TD>
+								<TD width="98">Inspiration was low</TD>
+								<TD width="70">1</TD>
+							</TR>
+							<TR>
+								<TD width="100">Example Reviewer</TD>
+								<TD width="98">Could be better</TD>
+								<TD width="70">3</TD>
+							</TR>
+							<TR>
+								<TD width="100">Test Reviewer</TD>
+								<TD width="98">I thought it was great</TD>
+								<TD width="70">4</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<HR>
+					<P></P>
+					<P></P>
+					<H2>Non-Existent Recording</H2>
+					<P>This test will attempt to retrieve a recording that is not present in the 
+						database.
+					</P>
+					<P>
+						<TABLE id="Table5" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">start
+								</TD>
+								<TD height="21">CustomerTests.CatalogAdapter
+								</TD>
+								<TD height="21">&nbsp;</TD>
+							</TR>
+							<TR>
+								<TD height="19">enter
+								</TD>
+								<TD height="19">FindByRecordingId
+								</TD>
+								<TD height="19">100002
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check
+								</TD>
+								<TD height="21">Found
+								</TD>
+								<TD height="21">False
+								</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<H2>
+						<HR>
+					</H2>
+					<H2>Add a Review to an Existing Recording</H2>
+					<P>This test knowing the existing state, will add a review to a recording. Once 
+						added it will retrieve the recording and verify that the review is correctlty 
+						added. The last step is to remove the review from the recording leaving it in 
+						it's original state.</P>
+					<P><FONT size="4">Before: </FONT>
+					</P>
+					<P>
+					<P></P>
+					<P>
+						<TABLE id="Table8" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">start
+								</TD>
+								<TD height="21">CustomerTests.CatalogAdapter
+								</TD>
+								<TD height="21">&nbsp;</TD>
+							</TR>
+							<TR>
+								<TD height="19">enter
+								</TD>
+								<TD height="19">FindByRecordingId
+								</TD>
+								<TD height="19">100001
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check
+								</TD>
+								<TD height="21">Found
+								</TD>
+								<TD height="21">true
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">check</TD>
+								<TD height="21">AverageRating</TD>
+								<TD height="21">2</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>
+						<TABLE id="Table9" cellSpacing="0" cellPadding="3" width="521" border="1">
+							<TR>
+								<TD width="508" colSpan="4">CustomerTests.ReviewDisplay
+								</TD>
+							</TR>
+							<TR>
+								<TD width="100">ReviewerName()</TD>
+								<TD width="98">Content()</TD>
+								<TD width="70">Rating()</TD>
+							</TR>
+							<TR>
+								<TD width="100">Sample Reviewer</TD>
+								<TD width="98">Inspiration was low</TD>
+								<TD width="70">1</TD>
+							</TR>
+							<TR>
+								<TD width="100">Example Reviewer</TD>
+								<TD width="98">Could be better</TD>
+								<TD width="70">3</TD>
+							</TR>
+							<TR>
+								<TD width="100">Test Reviewer</TD>
+								<TD width="98">I thought it was great</TD>
+								<TD width="70">4</TD>
+							</TR>
+						</TABLE>
+					<P>
+					<P>
+						<HR>
+					<P>&nbsp;</P>
+					<P></P>
+					<P><FONT size="4">Add the Review:</FONT></P>
+					<P>
+						<TABLE id="Table6" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">start
+								</TD>
+								<TD height="21">CustomerTests.ReviewAdapter
+								</TD>
+								<TD height="21">&nbsp;</TD>
+							</TR>
+							<TR>
+								<TD height="19">enter
+								</TD>
+								<TD height="19">FindByRecordingId
+								</TD>
+								<TD height="19">100001
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter&nbsp;</TD>
+								<TD height="21">SetRating</TD>
+								<TD height="21">4</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter&nbsp;</TD>
+								<TD height="21">SetContent</TD>
+								<TD height="21">Test Content</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter</TD>
+								<TD height="21">SetReviewerName</TD>
+								<TD height="21">FIT Reviewer</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter</TD>
+								<TD height="21">AddReview</TD>
+								<TD height="21"></TD>
+							</TR>
+							<TR>
+								<TD height="21">check</TD>
+								<TD height="21">ReviewAdded</TD>
+								<TD height="21">true</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter</TD>
+								<TD height="21">FindByRecordingId</TD>
+								<TD height="21">100001</TD>
+							</TR>
+							<TR>
+								<TD height="21">check</TD>
+								<TD height="21">AverageRating</TD>
+								<TD height="21">3</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>Verify the contents of the review.</P>
+					<P>
+						<TABLE id="Table10" cellSpacing="0" cellPadding="3" width="521" border="1">
+							<TR>
+								<TD width="508" colSpan="4">CustomerTests.ReviewDisplay
+								</TD>
+							</TR>
+							<TR>
+								<TD width="100">ReviewerName()</TD>
+								<TD width="98">Content()</TD>
+								<TD width="70">Rating()</TD>
+							</TR>
+							<TR>
+								<TD width="100">Sample Reviewer</TD>
+								<TD width="98">Inspiration was low</TD>
+								<TD width="70">1</TD>
+							</TR>
+							<TR>
+								<TD width="100">Example Reviewer</TD>
+								<TD width="98">Could be better</TD>
+								<TD width="70">3</TD>
+							</TR>
+							<TR>
+								<TD width="100">Test Reviewer</TD>
+								<TD width="98">I thought it was great</TD>
+								<TD width="70">4</TD>
+							</TR>
+							<TR>
+								<TD width="100">FIT Reviewer</TD>
+								<TD width="98">Test Content</TD>
+								<TD width="70">4</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<P>
+					<P>
+						<HR>
+					<P>&nbsp;</P>
+					<P></P>
+					<P><FONT size="4">Remove the Review:</FONT></P>
+					<P>To make sure the test is repeatable we need to remove the newly added review. 
+						This will remove the review.</P>
+					<P></P>
+					<P>
+						<TABLE id="Table11" height="106" cellSpacing="0" cellPadding="3" border="1">
+							<TR>
+								<TD colSpan="3" height="21">fit.<A href="wiki.cgi?ActionFixture">ActionFixture</A>
+								</TD>
+							</TR>
+							<TR>
+								<TD height="21">enter</TD>
+								<TD height="21">DeleteReview&nbsp;</TD>
+								<TD height="21"></TD>
+							</TR>
+						</TABLE>
+					</P>
+					<HR>
+					<P>
+						<TABLE class="MsoNormalTable" id="Table12" style="mso-cellspacing: 0in; mso-padding-alt: 2.25pt 2.25pt 2.25pt 2.25pt"
+							cellSpacing="0" cellPadding="0" border="1">
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+								<TD colSpan="3" height="21">
+									<P class="TableTitle">fit.ActionFixture
+										<SPAN style="mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 1">
+								<TD height="21">
+									<P class="TableText">start
+										<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">CustomerTests.ReviewAdapter
+										<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">&nbsp;<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 14.25pt; mso-yfti-irow: 2">
+								<TD height="19">
+									<P class="TableText">enter
+										<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="19">
+									<P class="TableText">FindByRecordingId
+										<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="19">
+									<P class="TableText">100001
+										<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 3">
+								<TD height="21">
+									<P class="TableText">enter&nbsp;<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">SetRating<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">4<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 4">
+								<TD height="21">
+									<P class="TableText">enter&nbsp;<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">SetContent<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">Test Content<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 5">
+								<TD height="21">
+									<P class="TableText">enter<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">SetReviewerName<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">Example Reviewer<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 6">
+								<TD height="21">
+									<P class="TableText">enter<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">AddReview<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText"><SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p>&nbsp;</o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+							<TR style="HEIGHT: 15.75pt; mso-yfti-irow: 7; mso-yfti-lastrow: yes">
+								<TD height="21">
+									<P class="TableText">check<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">ReviewAdded<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+								<TD height="21">
+									<P class="TableText">false<SPAN style="LINE-HEIGHT: 200%; mso-bidi-font-size: 12.0pt">
+											<o:p></o:p>
+										</SPAN></P>
+								</TD>
+							</TR>
+						</TABLE>
+					</P>
+					<DIV class="MsoNormal" style="TEXT-ALIGN: center" align="center">
+						<HR align="center" width="100%" SIZE="2">
+					</DIV>
+					<P>Report Statistics for this run:&nbsp;</P>
+					<P></P>
+					<P></P>
+					<table cellSpacing="0" cellPadding="3" border="1">
+						<tr>
+							<td colSpan="2">fit.Summary</td>
+						</tr>
+					</table>
+					</WIKI>
+					<p>&nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td vAlign="top" align="center">&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</body>
+</html>

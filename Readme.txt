@@ -1,5 +1,6 @@
 Notes:  -- the files related to this document are now in a GitHub repository
         -- no longer valid:  http://workspaces.gotdotnet.com/tdd
+        -- this work was originally compiled using Visual Studio .NET
         
         -- James Newkirk was the author of NUnit 2
         -- James Newkirk and Brad Wilson are responsible for xUnit.net

@@ -1,0 +1,6 @@
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (5686, N'FIT Reviewer')
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (5704, N'DatabaseUpdateReviewFixture')
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (5780, N'ReviewUpdateFixture')
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (100001, N'Sample Reviewer')
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (100002, N'Example Reviewer')
+INSERT INTO [dbo].[Reviewer] ([id], [name]) VALUES (100003, N'Test Reviewer')

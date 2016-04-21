@@ -1,0 +1,7 @@
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Recording', 10041)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Review', 9717)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Reviewer', 5825)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Label', 9609)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Artist', 9797)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Genre', 4768)
+INSERT INTO [dbo].[PKSequence] ([tablename], [nextid]) VALUES (N'Track', 11679)

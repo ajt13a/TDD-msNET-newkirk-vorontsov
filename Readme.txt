@@ -29,6 +29,8 @@ Kudos:  Joe K. Priestly for his free .msi extraction tool jsMSIx.exe - Simple MS
         
 Gotchas:
 (a) permissions for catalog_Data.mdf and catalog_Data.log
+    -- SQL Server Operating system error 5: “5(Access is denied.)”
+       http://stackoverflow.com/questions/18286765/sql-server-operating-system-error-5-5access-is-denied
 (b) version of SQL server is incorrect:                     [ MS SQL Server 2014 Management Studio ]
     "Msg 1813, Level 16, State 2, Line 1
      Could not open new database 'catalog'. CREATE DATABASE is aborted.

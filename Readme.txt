@@ -11,7 +11,7 @@ Notes:  -- the files related to this document are now in a GitHub repository
             the [TestMethod] attribute (and no [TestClass] attribute])"
             http://stephenwalther.com/archive/2015/02/24/top-10-changes-in-asp-net-5-and-mvc-6
         
-LinkS:  http://jamesnewkirk.typepad.com/posts/tdd.html
+Links:  http://jamesnewkirk.typepad.com/posts/tdd.html
         http://jamesnewkirk.typepad.com/tdd/toc.pdf Book table of content
         http://jamesnewkirk.typepad.com/tdd/ch2.pdf Book sample, chapter 2.
         https://www.microsoftpressstore.com/store/test-driven-development-in-microsoft-.net-9780735691292 
@@ -38,7 +38,18 @@ Gotchas:
      Database 'catalog' cannot be upgraded because its non-release version (539) is not supported
      by this version of SQL Server. You cannot open a database that is incompatible with this version of sqlservr.exe.
      You must re-create the database."
-        
+
+Additions:
+-- the original SQL .MDF and .LDF files would not open in SQL Server 2014
+-- using SSMS (SQL Server Management Studio) 2008, the .MDF/.LDF files were
+   upgraded automatically by SSMS 2008
+-- the new files also open in SSMS 2014
+-- the new files are in the folder named Database 2008
+-- scripts are available to build and populated the
+   SQL database named 'catalog' manually
+   (see the folder name SQL scripts)
+
+===============================================================
 
                          Readme file
                              for
